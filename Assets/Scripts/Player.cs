@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
 	void Start () {
 
 		// Player Spawn Point
-		transform.position = new Vector3 (0, 3, 0);
+		transform.position = new Vector3 (9, -1, 6);
 
 	}
 	
@@ -18,8 +18,6 @@ public class Player : MonoBehaviour {
 
 		// Player Moving
 		transform.Translate(Vector3.right * Input.GetAxis("Horizontal") * playerSpeed * Time.deltaTime);
-
-		transform.Translate(Vector3.up * Input.GetAxis("Vertical") * playerSpeed * Time.deltaTime);
 	
 	}
 }
