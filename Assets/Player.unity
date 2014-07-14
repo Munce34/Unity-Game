@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1338440098}
   - 212: {fileID: 1338440097}
+  - 61: {fileID: 1338440099}
   m_Layer: 0
   m_Name: tile_platform2large
   m_TagString: Untagged
@@ -174,6 +175,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!61 &1338440099
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338440096}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 15.000001, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1408750019
 GameObject:
   m_ObjectHideFlags: 0
